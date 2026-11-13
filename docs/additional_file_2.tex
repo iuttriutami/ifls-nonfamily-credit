@@ -1,0 +1,16 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{float}\usepackage{booktabs,longtable,graphicx,amsmath,caption}
+\usepackage[T1]{fontenc}\usepackage{mathptmx}
+\captionsetup{font=small,labelfont=bf}
+\renewcommand{\thefigure}{B\arabic{figure}}
+\begin{document}
+\noindent\textbf{Additional file 2}\\[2pt]
+\textbf{Access to non-family credit and household enterprise outcomes: spatial confounding and heterogeneous effects in Indonesia}\\[2pt]
+Monte Carlo results
+\bigskip
+
+\noindent Design (main text, Sect.~5.1): $G$ regions on the unit square with Dirichlet-distributed sizes; an unobserved regional factor $U$ from a Gaussian process with exponential covariance (length-scale 0.3); six standard-normal household covariates, the first shifted by $0.5U$; treatment and a rare binary outcome from logits with nonlinear covariate indices plus $0.8\rho U$; treatment share calibrated to 0.40 and outcome prevalence to $p$; logit-scale treatment effect $-0.5-0.4X_2$. Estimand: sample average risk difference. DML uses LightGBM learners, five folds and the AIPW score; spatial blocks are 10 k-means clusters of region centroids. 500 replications per scenario.
+
+\input{parts2.tex}
+\end{document}
