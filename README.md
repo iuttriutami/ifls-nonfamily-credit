@@ -1,4 +1,4 @@
-# Replication package — Access to non-family credit and household enterprise outcomes
+  # Replication package — Non-family credit and the survival of household enterprises in Indonesia
 
 Replication code and aggregated results for the manuscript
 **"Non-family credit and the survival of household enterprises in Indonesia: double machine learning under spatial confounding"** (submitted to *Journal of Economics and Development*).
